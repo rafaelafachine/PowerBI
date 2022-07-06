@@ -26,7 +26,27 @@ Também foram renomeadas colunas, removidas células vazias.
 Como se trata de um projeto da empresa Alura, procurei a paleta de cores referente ao logo por meio do site: https://www.canva.com/colors/color-palette-generator/
 ![image](https://user-images.githubusercontent.com/104572672/177175681-307214a9-acbe-4a3a-8d85-93c23953f3a1.png)
 
-#DASHBOARD – LOGÍSTICA ALURA
+
+Questionamentos da empresa a serem respondidos: 
+Quantas entregas foram realizadas no prazo?
+Quantas entregas foram atrasadas?
+Quantos veículos estão disponíveis?
+Como está a média de estoque por ano?
+Calcular S2D (Ship to Door) – medido em dias
+Mostrar índice de ocorrências por estado
+
+
+
+**DASHBOARD – LOGÍSTICA ALURA
 ![image](https://user-images.githubusercontent.com/104572672/177452021-3cac0897-63d6-4d70-a127-2730e4da512a.png)
 _____________________________________________________________________________________________________________________________________________________________
+
+Total de pedidos:
+
+TotalPedidos = COUNT('Tabela - Pedidos'[ID Pedido] )
+
+![image](https://user-images.githubusercontent.com/104572672/177452646-1681e544-f493-4d97-a36c-ce9806917ce5.png)
+
+
+
 
