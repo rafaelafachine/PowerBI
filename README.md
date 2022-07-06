@@ -36,7 +36,7 @@ Calcular S2D (Ship to Door) – medido em dias
 Mostrar índice de ocorrências por estado
 
 
-*DASHBOARD – LOGÍSTICA ALURA
+**DASHBOARD – LOGÍSTICA ALURA**
 _____________________________________________________________________________________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/104572672/177452021-3cac0897-63d6-4d70-a127-2730e4da512a.png)
@@ -47,6 +47,14 @@ Total de pedidos:
 TotalPedidos = COUNT('Tabela - Pedidos'[ID Pedido] )
 
 ![image](https://user-images.githubusercontent.com/104572672/177452646-1681e544-f493-4d97-a36c-ce9806917ce5.png)
+
+
+```diff 
+- Quantas entregas foram realizadas no prazo? 
+```
+DentroPrazo = CALCULATE([TotalPedidos], FILTER('Tabela - Pedidos', 'Tabela - Pedidos'[DataEntrega] <= 'Tabela - Pedidos'[Data Previsão]))
+
+![image](https://user-images.githubusercontent.com/104572672/177454033-99146d41-2e3a-4b7a-80f6-85500061932e.png)
 
 
 
